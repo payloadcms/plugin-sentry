@@ -11,9 +11,9 @@ export default buildConfig({
   serverURL: 'http://localhost:3000',
   admin: {
     user: Users.slug,
-    components: {
-      beforeDashboard: [testErrors],
-    },
+    // components: {
+    //   beforeDashboard: [testErrors],
+    // },
   },
   collections: [Posts, Users],
   typescript: {
