@@ -5,7 +5,7 @@ import { buildConfig } from 'payload/config'
 import { sentry } from '../../src/index'
 import Posts from './collections/Posts'
 import Users from './collections/Users'
-import { testErrors } from './test/component'
+// import { testErrors } from './test/component'
 
 export default buildConfig({
   serverURL: 'http://localhost:3000',
